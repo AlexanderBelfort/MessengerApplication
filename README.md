@@ -31,4 +31,11 @@ javac MessageClient.java
 
 • Run as many clients as you need by writing java MessageClient into the console
 
+###### TO FIX:
+
+###### Multiple threads may access the lists and hash maps concurrently
+
+###### ArrayList and HashMap are not thread-safe
+
+###### Implementation is not thread safe
 
